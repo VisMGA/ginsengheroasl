@@ -8,7 +8,7 @@ startup
     vars.gameManagerTarget = new SigScanTarget(62, "55 48 8B EC 48 81 EC 60 01 00 00 48 89 75 D0 48 89 7D D8 4C 89 65 E0 4C 89 6D E8 4C 89 75 F0 4C 89 7D F8 48 8B F1 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ??");
     settings.Add("weapon1", true, "Split on first weapon");
     settings.SetToolTip("weapon1", "Happens twice in death abuse route");
-    settings.Add("death", false, "Split on death");
+    settings.Add("death", false, "Split on first death");
     settings.Add("bosses", true, "Split on first two boss kills");
     settings.Add("wings", true, "Split on wings acquired");
     settings.Add("ferry", true, "Split on taking the ferry");
