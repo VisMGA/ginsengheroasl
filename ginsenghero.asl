@@ -30,6 +30,7 @@ init
         }
     }
     if (vars.ptr == IntPtr.Zero) {
+        Thread.Sleep(100);
         throw new Exception("Failed to scan for pointers");
     }
 
